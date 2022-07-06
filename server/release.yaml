@@ -11,7 +11,7 @@ metadata:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: busybox2
+  name: busybox
   namespace: demo-gitops
 spec:
   containers:
@@ -20,5 +20,5 @@ spec:
       - sleep
       - "3600"
     imagePullPolicy: IfNotPresent
-    name: busybox2
+    name: busybox
   restartPolicy: Never
