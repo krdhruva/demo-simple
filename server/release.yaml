@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: busybox
-  namespace: busybox
+  namespace: busybox2
 spec:
   containers:
   - image: busybox
